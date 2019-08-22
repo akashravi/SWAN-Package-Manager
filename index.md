@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# Google Summer of Code 2019 Project Report
 
-You can use the [editor on GitHub](https://github.com/akashravi/SWAN-Package-Manager/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Introduction
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This Jupyter notebook extension will allow the users to specify python modules (and their respective versions) via a user interface and make them available automatically inside the corresponding project.
 
-### Markdown
+Each project is internally mapped to a separate conda environment. This helps abstract the processing part, while providing an independent environment for each project. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Features
 
-```markdown
-Syntax highlighted code block
+- View packages installed for a specific project
+- Update / Delete existing packages
+- Search for new packages and install them
+- Sync your project if any of your packages are missing or misconfigured
 
-# Header 1
-## Header 2
-### Header 3
+## Instructions
 
-- Bulleted
-- List
+- This project assumes a [SWAN](https://gitlab.cern.ch/swan) setup. The APIs require certain actions as prerequisites, which are already fulfilled by SWAN. 
+- Please find the install instructions [here](https://github.com/techtocore/Jupyter-Package-Manager/extension/install.md)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Documentation
 
-[Link](url) and ![Image](src)
-```
+- Please find the API Specification [here](https://github.com/techtocore/Jupyter-Package-Manager/docs/API_docs.md)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+## Screenshot
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/akashravi/SWAN-Package-Manager/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![Alt text](https://github.com/techtocore/Jupyter-Package-Manager/docs/ui.png?raw=true "Package Management UI")
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## About
+
+This extension is made for the purpose of fulfilment of the GSoC 2019 project at CERN ([Project Summary](https://summerofcode.withgoogle.com/projects/4999527885438976))
+
+- Developer: Akash Ravi
+- Email ID: akashkravi@gmail.com
+- Linkedin Profile: https://www.linkedin.com/in/akash-ravi/
