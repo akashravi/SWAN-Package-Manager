@@ -78,9 +78,10 @@ Each project is internally mapped to a separate conda environment and the projec
 - Rigerous end to end testing
 
 
-## Screenshot
+## Screenshots
 
 ![Alt text](https://github.com/techtocore/Jupyter-Package-Manager/raw/swan-integration/docs/ui.png "Package Management UI")
+
 
 
 ![Alt text](https://github.com/techtocore/Jupyter-Package-Manager/raw/swan-integration/docs/modal.png "Package Management UI")
@@ -88,8 +89,8 @@ Each project is internally mapped to a separate conda environment and the projec
 
 ## About
 
-This extension is made for the purpose of fulfilment of the GSoC 2019 project at CERN ([Project Summary](https://summerofcode.withgoogle.com/projects/4999527885438976)){:target="_blank"}
+This extension is made for the purpose of fulfilment of the GSoC 2019 project at CERN ([Project Summary](https://summerofcode.withgoogle.com/projects/4999527885438976){:target="_blank"})
 
-- **Developer**: *Akash Ravi*
+- **Developer**: ***Akash Ravi***
 - **Email ID**: [akashkravi@gmail.com](mailto:akashkravi@gmail.com){:target="_blank"}
 - **Linkedin Profile**: [https://www.linkedin.com/in/akash-ravi/](https://www.linkedin.com/in/akash-ravi/){:target="_blank"}
