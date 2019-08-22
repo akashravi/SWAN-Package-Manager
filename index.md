@@ -1,5 +1,17 @@
 # Google Summer of Code 2019 Project Report
 
+<table>
+<tr>
+
+<td><a href="https://summerofcode.withgoogle.com/projects/4999527885438976"><img src="https://user-images.githubusercontent.com/6822941/29750351-e95e7b1c-8b5b-11e7-9f6b-b25b69f7353a.png" height="100"/></td>
+
+<td><a href="http://hepsoftwarefoundation.org/"><img src="https://user-images.githubusercontent.com/6822941/29750350-e956b512-8b5b-11e7-9e34-4e3a5be9d37f.png" height="100"/></td>
+
+<td><a href="https://swan.web.cern.ch/"><img src="https://swan.web.cern.ch/sites/swan.web.cern.ch/files/logo_swan_noletters_thumbnail.png" height="100"/></td>
+
+</tr>
+</table>
+
 ## Introduction
 
 SWAN (Service for Web based ANalysis) is a platform developed by CERN to perform interactive data analysis in the cloud, without the need to install any software. It lets users create catalogs of their analyses. 
@@ -20,6 +32,7 @@ Each project is internally mapped to a separate conda environment and the projec
 ## Setup Instructions
 
 - This project assumes a [SWAN](https://gitlab.cern.ch/swan) setup. The APIs require certain actions as prerequisites, which are already fulfilled by SWAN. 
+
 - Please find the install instructions [here](https://github.com/techtocore/Jupyter-Package-Manager/extension/install.md)
 
 
@@ -53,8 +66,9 @@ Each project is internally mapped to a separate conda environment and the projec
 - Dockerfile that automates deployment
 - SWAN integration
 
-Link to extension repository: https://github.com/techtocore/Jupyter-Package-Manager
-Link to modified SWAN setup: https://github.com/techtocore/jupyter
+Link to extension repository: [https://github.com/techtocore/Jupyter-Package-Manager](https://github.com/techtocore/Jupyter-Package-Manager)
+
+Link to modified SWAN setup: [https://github.com/techtocore/jupyter](https://github.com/techtocore/jupyter)
 
 
 ## List of tasks that is yet to be completed
@@ -66,7 +80,7 @@ Link to modified SWAN setup: https://github.com/techtocore/jupyter
 
 ## Screenshot
 
-![Alt text](https://github.com/techtocore/Jupyter-Package-Manager/docs/ui.png?raw=true "Package Management UI")
+![Alt text](https://github.com/techtocore/Jupyter-Package-Manager/raw/swan-integration/docs/ui.png "Package Management UI")
 
 
 ## About
