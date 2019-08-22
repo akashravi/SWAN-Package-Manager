@@ -1,16 +1,14 @@
 # Google Summer of Code 2019 Project Report
 
+
 <table>
 <tr>
-
 <td><a href="https://summerofcode.withgoogle.com/projects/4999527885438976"><img src="https://user-images.githubusercontent.com/6822941/29750351-e95e7b1c-8b5b-11e7-9f6b-b25b69f7353a.png" height="100"/></td>
-
 <td><a href="http://hepsoftwarefoundation.org/"><img src="https://user-images.githubusercontent.com/6822941/29750350-e956b512-8b5b-11e7-9e34-4e3a5be9d37f.png" height="100"/></td>
-
 <td><a href="https://swan.web.cern.ch/"><img src="https://swan.web.cern.ch/sites/swan.web.cern.ch/files/logo_swan_noletters_thumbnail.png" height="100"/></td>
-
 </tr>
 </table>
+
 
 ## Introduction
 
