@@ -66,9 +66,9 @@ Each project is internally mapped to a separate conda environment and the projec
 - Dockerfile that automates deployment
 - SWAN integration
 
-Link to extension repository: [https://github.com/techtocore/Jupyter-Package-Manager](https://github.com/techtocore/Jupyter-Package-Manager)
+**Link to extension repository**: [https://github.com/techtocore/Jupyter-Package-Manager](https://github.com/techtocore/Jupyter-Package-Manager){:target="_blank"}
 
-Link to modified SWAN setup: [https://github.com/techtocore/jupyter](https://github.com/techtocore/jupyter)
+**Link to modified SWAN setup**: [https://github.com/techtocore/jupyter](https://github.com/techtocore/jupyter){:target="_blank"}
 
 
 ## List of tasks that is yet to be completed
@@ -83,10 +83,13 @@ Link to modified SWAN setup: [https://github.com/techtocore/jupyter](https://git
 ![Alt text](https://github.com/techtocore/Jupyter-Package-Manager/raw/swan-integration/docs/ui.png "Package Management UI")
 
 
+![Alt text](https://github.com/techtocore/Jupyter-Package-Manager/raw/swan-integration/docs/modal.png "Package Management UI")
+
+
 ## About
 
-This extension is made for the purpose of fulfilment of the GSoC 2019 project at CERN ([Project Summary](https://summerofcode.withgoogle.com/projects/4999527885438976))
+This extension is made for the purpose of fulfilment of the GSoC 2019 project at CERN ([Project Summary](https://summerofcode.withgoogle.com/projects/4999527885438976)){:target="_blank"}
 
-- Developer: Akash Ravi
-- Email ID: [akashkravi@gmail.com]([mailto:akashkravi@gmail.com)
-- Linkedin Profile: [https://www.linkedin.com/in/akash-ravi/](https://www.linkedin.com/in/akash-ravi/)
+- **Developer**: *Akash Ravi*
+- **Email ID**: [akashkravi@gmail.com](mailto:akashkravi@gmail.com){:target="_blank"}
+- **Linkedin Profile**: [https://www.linkedin.com/in/akash-ravi/](https://www.linkedin.com/in/akash-ravi/){:target="_blank"}
