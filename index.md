@@ -1,6 +1,7 @@
 # Google Summer of Code 2019 Project Report
 
 
+<center>
 <table>
 <tr>
 <td><a href="https://summerofcode.withgoogle.com/projects/4999527885438976"><img src="https://user-images.githubusercontent.com/6822941/29750351-e95e7b1c-8b5b-11e7-9f6b-b25b69f7353a.png" height="100"/></a></td>
@@ -8,6 +9,7 @@
 <td><a href="https://swan.web.cern.ch/"><img src="https://swan.web.cern.ch/sites/swan.web.cern.ch/files/logo_swan_noletters_thumbnail.png" height="100"/></a></td>
 </tr>
 </table>
+</center>
 
 
 ## Introduction
@@ -86,5 +88,5 @@ Link to modified SWAN setup: [https://github.com/techtocore/jupyter](https://git
 This extension is made for the purpose of fulfilment of the GSoC 2019 project at CERN ([Project Summary](https://summerofcode.withgoogle.com/projects/4999527885438976))
 
 - Developer: Akash Ravi
-- Email ID: akashkravi@gmail.com
-- Linkedin Profile: https://www.linkedin.com/in/akash-ravi/
+- Email ID: [akashkravi@gmail.com](akashkravi@gmail.com)
+- Linkedin Profile: [https://www.linkedin.com/in/akash-ravi/](https://www.linkedin.com/in/akash-ravi/)
