@@ -14,11 +14,17 @@
 
 ## Introduction
 
-SWAN (Service for Web based ANalysis) is a platform developed by CERN to perform interactive data analysis in the cloud, without the need to install any software. It lets users create catalogs of their analyses. 
+[SWAN](https://swan.web.cern.ch/) (Service for Web based ANalysis) is a platform developed by CERN to perform interactive data analysis in the cloud, without the need to install any software. It is built upon [Jupyter notebooks](http://jupyter.org/) and allows users to code and run their scripts via a web interface.
 
-This Jupyter notebook extension will allow the users to specify python modules (and their respective versions) via a user interface and make them available automatically inside the corresponding project. People who open a shared project would automatically get a prompt to install all the required packages. It thus encourages reproducible studies and collaborative experimentation.
+A Project in SWAN is a special type of folder that you can use as a container for your work on a given topic: notebooks, input/output files, other subfolders, etc. It is also the unit of sharing in SWAN: you can share a project with your colleagues and thus provide them with everything they need to run the notebooks you created.
+
+With this requirement in mind, this GSoC project aims to provide a package manager for SWAN (in the shape of a Jupyter extension), that will allow users to keep track of the packages needed by their “projects”, thus also allowing others to seamless install everything needed.
+
+This extension will allow the users to install python modules (and their respective versions) via a user interface and make them available automatically inside the corresponding project. People who open a shared project would automatically get a prompt to install all the required packages. It thus encourages reproducible results and collaborative analysis.
 
 Each project is internally mapped to a separate conda environment and the project metadata is stored on a hidden file as a part of the project itself. This helps abstract the processing part, while providing an independent environment for each project. 
+
+SWAN allows you to create notebooks in four different languages: Python (2 or 3, depending on the software stack chosen during the session configuration), C++, R and Octave. However, this extension would only work for python projects. For other kernels, it is not certain that the environments guarantee isolated versions of packages.
 
 
 ## Features
@@ -31,7 +37,7 @@ Each project is internally mapped to a separate conda environment and the projec
 
 ## Setup Instructions
 
-- This project assumes a [SWAN](https://gitlab.cern.ch/swan) setup. The APIs require certain actions as prerequisites, which are already fulfilled by SWAN. 
+- This project assumes a SWAN setup. The APIs require certain actions as prerequisites, which are already fulfilled by SWAN. 
 
 - Please find the install instructions [here](https://github.com/techtocore/Jupyter-Package-Manager/extension/install.md)
 
@@ -66,9 +72,9 @@ Each project is internally mapped to a separate conda environment and the projec
 - Dockerfile that automates deployment
 - SWAN integration
 
-**Link to extension repository**: [https://github.com/techtocore/Jupyter-Package-Manager](https://github.com/techtocore/Jupyter-Package-Manager){:target="_blank"}
+**Link to extension repository**: [https://github.com/techtocore/Jupyter-Package-Manager](https://github.com/techtocore/Jupyter-Package-Manager)
 
-**Link to modified SWAN setup**: [https://github.com/techtocore/jupyter](https://github.com/techtocore/jupyter){:target="_blank"}
+**Link to modified SWAN setup**: [https://github.com/techtocore/jupyter](https://github.com/techtocore/jupyter)
 
 
 ## List of tasks that is yet to be completed
@@ -89,8 +95,18 @@ Each project is internally mapped to a separate conda environment and the projec
 
 ## About
 
-This extension is made for the purpose of fulfilment of the GSoC 2019 project at CERN ([Project Summary](https://summerofcode.withgoogle.com/projects/4999527885438976){:target="_blank"})
+This extension is made for the purpose of fulfilment of the GSoC 2019 project at **CERN-HSF** ([Project Summary](https://summerofcode.withgoogle.com/projects/4999527885438976))
 
-- **Developer**: ***Akash Ravi***
-- **Email ID**: [akashkravi@gmail.com](mailto:akashkravi@gmail.com){:target="_blank"}
-- **Linkedin Profile**: [https://www.linkedin.com/in/akash-ravi/](https://www.linkedin.com/in/akash-ravi/){:target="_blank"}
+### Student
+
+***Akash Ravi***
+
+- **Email ID**: [akashkravi@gmail.com](mailto:akashkravi@gmail.com)
+- **Linkedin Profile**: [https://www.linkedin.com/in/akash-ravi/](https://www.linkedin.com/in/akash-ravi/)
+
+### Mentors
+
+- Diogo Castro
+- Enrico 
+- Enric Tejedor
+- Jakub Moscicki
