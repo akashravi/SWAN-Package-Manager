@@ -39,7 +39,7 @@ SWAN allows you to create notebooks in four different languages: Python (2 or 3,
 
 - This project assumes a SWAN setup. The APIs require certain actions as prerequisites, which are already fulfilled by SWAN. 
 
-- Please find the install instructions [here](https://github.com/techtocore/Jupyter-Package-Manager/extension/install.md)
+- Please find the install instructions [here](https://github.com/techtocore/Jupyter-Package-Manager/blob/swan-integration/extension/install.md)
 
 
 ## Usage Instructions
@@ -61,7 +61,7 @@ SWAN allows you to create notebooks in four different languages: Python (2 or 3,
 
 ## Documentation
 
-- Please find the API Specification [here](https://github.com/techtocore/Jupyter-Package-Manager/docs/API_docs.md)
+- Please find the API Specification [here](https://github.com/techtocore/Jupyter-Package-Manager/blob/swan-integration/docs/API_docs.md)
 - The code is documented with necessary inline comments and docstrings
 
 

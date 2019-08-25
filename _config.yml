@@ -1,3 +1,7 @@
+title: SWAN Package Manager
+description: Jupyter extension for managing conda packages
+owner: Akash Ravi
+
 theme: jekyll-theme-cayman
 
 github:
