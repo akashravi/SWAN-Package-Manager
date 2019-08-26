@@ -46,13 +46,13 @@ SWAN allows you to create notebooks in four different languages: Python (2 or 3,
 
 - From the Projects tab, you can create a folder by clicking on the  **`+`** button. Internally, this will create a new conda environment for all the notebooks inside it.
 
-- To configure the project, click the cog button. This will show a side panel The default view lists down the list of packages installed along with their corresponding versions. 
+- To configure the project, click the cog button. This would reveal a side panel listing down the installed packages, along with their corresponding versions. 
 
 - If in case the project metadata and the underlying environment are not in sync, the sidebar will also list the packages that need to be additionally installed. This is fundamental to share projects and collaborate with peers. By default, when an user clones a shared project, the required packages are not installed. This extension will let users to install them.
 
-- To install a new package, the user can search for them. An autocomplete feature is also available for the same. After picking a package, the user can search for more. The selected packages are installed only when the user clicks the 'install' button. This avoids separate and multiple installations.
+- To install a new package, the user can search for them (an autocomplete feature is available). The selected packages are installed only when the user clicks the 'install' button. This allows the selection of other packages before issuing the 'install' command, which might take a while.
 
-- Users can check for updates by clicking the small cog button beside the list of installed packages. A pop-up modal will list the packages that need to be updated, along with their versions. Similarly, users can select one or more packages and uninstall them by clicking the bin icon.
+- Users can check for updates, for all or only the selected packages, by clicking the small cog button beside the list of installed packages. A pop-up modal will list the packages that need to be updated, along with their versions. Similarly, users can select one or more packages and uninstall them by clicking the bin icon.
 
 - In order to create a notebook, click on the **`+`** button from inside a project or a regular folder. A list will then appear with the available languages. Users will be able to launch notebooks only using the kernel corresponding to that project. Any external notebook placed under the project will also be using the same kernel.
 
@@ -79,7 +79,7 @@ SWAN allows you to create notebooks in four different languages: Python (2 or 3,
 
 - Optimisation of kernel display filtering
 - Improvising visual cues
-- Rigerous end to end testing
+- Rigorous end to end testing
 
 
 ## Screenshots
@@ -105,9 +105,10 @@ This extension is made for the purpose of fulfilment of the GSoC 2019 project at
 ### Mentors
 
 - Diogo Castro
-- Enrico 
+- Enrico Bocchi
 - Enric Tejedor
 - Jakub Moscicki
+
 
 <script>
 //open external links in a new window
