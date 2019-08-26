@@ -16,15 +16,15 @@
 
 [SWAN](https://swan.web.cern.ch/) (Service for Web based ANalysis) is a platform developed by CERN to perform interactive data analysis in the cloud, without the need to install any software. It is built upon [Jupyter notebooks](http://jupyter.org/) and allows users to code and run their scripts via a web interface.
 
-A Project in SWAN is a special type of folder that you can use as a container for your work on a given topic: notebooks, input/output files, other subfolders, etc. It is also the unit of sharing in SWAN: you can share a project with your colleagues and thus provide them with everything they need to run the notebooks you created.
+In SWAN, users can create projects and store their notebooks, input/output files, etc. Internally, a project is a special type of folder that can be used as a container for your work. It is also the unit of sharing in SWAN: you can share a project with your colleagues and thus provide them with everything they need to run the notebooks you created.
 
-With this requirement in mind, this GSoC project aims to provide a package manager for SWAN (in the shape of a Jupyter extension), that will allow users to keep track of the packages needed by their “projects”, thus also allowing others to seamless install everything needed.
+The objective of this GSoC project is to create a package manager for SWAN (in the shape of a Jupyter extension), that will allow users to keep track of the packages needed by their “projects”. This lets users seamlessly manage their projects and dependencies.
 
-This extension will allow the users to install python modules (and their respective versions) via a user interface and make them available automatically inside the corresponding project. People who open a shared project would automatically get a prompt to install all the required packages. It thus encourages reproducible results and collaborative analysis.
+The extension allows users to install python modules (and their respective versions) via a user interface, making them available inside the corresponding project. People who open a shared project would automatically get a prompt to install all the required missing packages. It thus encourages reproducible results and collaborative analysis.
 
-Each project is internally mapped to a separate conda environment and the project metadata is stored on a hidden file as a part of the project itself. This helps abstract the processing part, while providing an independent environment for each project. 
+Each project is internally mapped to a separate conda environment and the project metadata is stored on a hidden file as a part of the project itself. This helps abstract the configuration, while mapping an independent environment for each project. 
 
-SWAN allows you to create notebooks in four different languages: Python (2 or 3, depending on the software stack chosen during the session configuration), C++, R and Octave. However, this extension would only work for python projects. For other kernels, it is not certain that the environments guarantee isolated versions of packages.
+SWAN allows the creation of notebooks in four different languages: Python (2 or 3, depending on the software stack chosen during the session configuration), C++, R and Octave. However, this extension would only work for python projects. For other kernels, it is not certain that the environments guarantee isolated versions of packages.
 
 
 ## Features
