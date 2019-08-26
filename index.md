@@ -100,7 +100,7 @@ This extension is made for the purpose of fulfilment of the GSoC 2019 project at
 ***Akash Ravi***
 
 - **Email ID**: [akashkravi@gmail.com](mailto:akashkravi@gmail.com)
-- **Linkedin Profile**: [https://www.linkedin.com/in/akash-ravi/](https://www.linkedin.com/in/akash-ravi/)
+- **Profile**: [https://akashravi.github.io/](https://akashravi.github.io/)
 
 ### Mentors
 
