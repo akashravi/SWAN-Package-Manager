@@ -22,9 +22,9 @@ The objective of this GSoC project is to create a package manager for SWAN (in t
 
 The extension allows users to install python modules (and their respective versions) via a user interface, making them available inside the corresponding project. People who open a shared project would automatically get a prompt to install all the required missing packages. It thus encourages reproducible results and collaborative analysis.
 
-Each project is internally mapped to a separate conda environment and the project metadata is stored on a hidden file as a part of the project itself. This helps abstract the configuration, while mapping an independent environment for each project. 
+Each project is internally mapped to a separate conda environment and the project metadata is stored on a hidden file as a part of the project itself. This helps abstract the configuration while mapping an independent environment for each project. 
 
-SWAN allows the creation of notebooks in four different languages: Python (2 or 3, depending on the software stack chosen during the session configuration), C++, R and Octave. However, this extension would only work for python projects. For other kernels, it is not certain that the environments guarantee isolated versions of packages.
+SWAN allows the creation of notebooks in four different languages: Python (2 or 3, depending on the software stack chosen during the session configuration), C++, R, and Octave. However, this extension would only work for python projects. For other kernels, it is not certain that the environments guarantee isolated versions of packages.
 
 
 ## Features
@@ -48,7 +48,7 @@ SWAN allows the creation of notebooks in four different languages: Python (2 or 
 
 - To configure the project, click the cog button. This would reveal a side panel listing down the installed packages, along with their corresponding versions. 
 
-- If in case the project metadata and the underlying environment are not in sync, the sidebar will also list the packages that need to be additionally installed. This is fundamental to share projects and collaborate with peers. By default, when an user clones a shared project, the required packages are not installed. This extension will let users to install them.
+- If in case the project metadata and the underlying environment are not in sync, the sidebar will also list the packages that need to be additionally installed. This is fundamental to share projects and collaborate with peers. By default, when a user clones a shared project, the required packages are not installed. This extension will let users install them.
 
 - To install a new package, the user can search for them (an autocomplete feature is available). The selected packages are installed only when the user clicks the 'install' button. This allows the selection of other packages before issuing the 'install' command, which might take a while.
 
@@ -66,7 +66,7 @@ SWAN allows the creation of notebooks in four different languages: Python (2 or 
 ## List of completed deliverables
 
 - Server Extension with all the necessary API endpoints
-- Frontend Extension that lets users to interact with the package manager
+- Frontend Extension that lets users interact with the package manager
 - Dockerfile that automates deployment
 - SWAN integration
 
@@ -77,7 +77,7 @@ SWAN allows the creation of notebooks in four different languages: Python (2 or 
 
 ## List of tasks that is yet to be completed
 
-- Optimisation of kernel display filtering
+- Optimization of kernel display filtering
 - Improvising visual cues
 - Rigorous end to end testing
 
@@ -93,7 +93,7 @@ SWAN allows the creation of notebooks in four different languages: Python (2 or 
 
 ## About
 
-This extension is made for the purpose of fulfilment of the GSoC 2019 project at **CERN-HSF** ([Project Summary](https://summerofcode.withgoogle.com/projects/4999527885438976))
+This extension is made for the purpose of fulfillment of the GSoC 2019 project at **CERN-HSF** ([Project Summary](https://summerofcode.withgoogle.com/projects/4999527885438976))
 
 ### Student
 
