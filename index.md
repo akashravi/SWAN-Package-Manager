@@ -18,7 +18,9 @@
 
 In SWAN, users can create projects and store their notebooks, input/output files, etc. Internally, a project is a special type of folder that can be used as a container for your work. It is also the unit of sharing in SWAN: you can share a project with your colleagues and thus provide them with everything they need to run the notebooks you created.
 
-The objective of this GSoC project is to create a package manager for SWAN (in the shape of a Jupyter extension), that will allow users to keep track of the packages needed by their “projects”. This lets users seamlessly manage their projects and dependencies.
+Software packages in SWAN are retrieved on the fly from an HTTP-based file system called [CVMFS](https://cernvm.cern.ch/portal/filesystem) (CernVM File System) allowing users to forget about installation, configuration, and compatibility of packages. Due to the [centrally managed software](http://lcginfo.cern.ch/), provided by CVMFS, a user trying to open the shared notebook doesn’t have to worry about compatibility with its software stack, since they are the same. However, SWAN is also used by users who need to install their own packages, breaking this seamless sharing experience.
+
+The objective of this GSoC project is to create a package manager for SWAN (in the shape of a Jupyter extension), that will allow users to keep track of the packages needed by their “projects”. This lets users manage their projects and dependencies.
 
 The extension allows users to install python modules (and their respective versions) via a user interface, making them available inside the corresponding project. People who open a shared project would automatically get a prompt to install all the required missing packages. It thus encourages reproducible results and collaborative analysis.
 
@@ -68,7 +70,7 @@ SWAN allows the creation of notebooks in four different languages: Python (2 or 
 - Server Extension with all the necessary API endpoints
 - Frontend Extension that lets users interact with the package manager
 - Dockerfile that automates deployment
-- SWAN integration
+- SWAN integration (Partially done)
 
 **Link to extension repository**: [https://github.com/techtocore/Jupyter-Package-Manager](https://github.com/techtocore/Jupyter-Package-Manager)
 
@@ -78,6 +80,7 @@ SWAN allows the creation of notebooks in four different languages: Python (2 or 
 ## List of tasks that is yet to be completed
 
 - Optimization of kernel display filtering
+- Integration with [EOS](http://information-technology.web.cern.ch/services/eos-service)
 - Improvising visual cues
 - Rigorous end to end testing
 
