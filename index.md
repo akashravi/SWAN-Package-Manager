@@ -79,9 +79,8 @@ SWAN allows the creation of notebooks in four different languages: Python (2 or 
 
 ## List of tasks that is yet to be completed
 
-- Optimization of kernel display filtering
 - Integration with [EOS](http://information-technology.web.cern.ch/services/eos-service)
-- Improvising visual cues
+- Optimization of kernel list filtering
 - Rigorous end to end testing
 
 
